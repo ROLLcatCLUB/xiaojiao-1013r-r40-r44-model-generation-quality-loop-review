@@ -1,0 +1,272 @@
+{
+  "package_id": "1013R_R40_R44_MODEL_GENERATION_QUALITY_LOOP_REVIEW",
+  "generated_at": "2026-06-27T14:24:11+00:00",
+  "source_repo": "D:\\Documents\\SmartEdu\\xiaobei-core",
+  "target_dir": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R40_R44_MODEL_GENERATION_QUALITY_LOOP_REVIEW",
+  "copied_count": 41,
+  "missing": [],
+  "forbidden_hits": [],
+  "copy_items": [
+    {
+      "path": "backend/xiaobei_ai/prep_room_model_quality_loop_1013R_R40_R44.py",
+      "copied": true,
+      "bytes": 30925,
+      "sha256": "2a39d0e811706fc988c6675cfed7c91b6d7e4927de6fd95bd51f4d53559083e1"
+    },
+    {
+      "path": "backend/xiaobei_ai/prep_room_continuous_experience_candidate_preview_1013R_R35_R39.py",
+      "copied": true,
+      "bytes": 23213,
+      "sha256": "8664ab3c927e85ea6fa6f199aaf6591892771f2df4eb084528047ead32c8b592"
+    },
+    {
+      "path": "scripts/build_1013R_R40_R44_model_generation_quality_loop.py",
+      "copied": true,
+      "bytes": 10387,
+      "sha256": "08b961554debfbed22ac762ef4b0f3b58e64fce3642f37028d8a5ee7ba12916e"
+    },
+    {
+      "path": "scripts/validate_1013R_R40_model_quality_sandbox_gate.py",
+      "copied": true,
+      "bytes": 1549,
+      "sha256": "c7a0ab60ae910d8d05df8fc3546a3f3eb845f27e0ac6bd78db2b5d987b865bd5"
+    },
+    {
+      "path": "scripts/validate_1013R_R41_real_model_single_case_generation.py",
+      "copied": true,
+      "bytes": 2284,
+      "sha256": "7b6a8cf473ef9d557c48756f07387fbb8a1673dc796d960a24f79b47c38b6445"
+    },
+    {
+      "path": "scripts/validate_1013R_R42_multi_candidate_type_generation.py",
+      "copied": true,
+      "bytes": 2283,
+      "sha256": "b8c8da7e213f8ebe707572092e3a16cba9d9c8afa06cb638d390215bad147e0d"
+    },
+    {
+      "path": "scripts/validate_1013R_R43_generation_quality_evaluation.py",
+      "copied": true,
+      "bytes": 1947,
+      "sha256": "d433057ba65fee82f162de2cb0143be474e78fddcefed8a380ce1c3151f3fa51"
+    },
+    {
+      "path": "scripts/validate_1013R_R44_prompt_schema_adjustment_regeneration.py",
+      "copied": true,
+      "bytes": 2164,
+      "sha256": "17067d7005131d748e4ad1ff799346c03b7865b3c6d28c292c663acf7c2d4cf8"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R39_candidate_preview_backfill/R39_candidate_preview_state.json",
+      "copied": true,
+      "bytes": 1287,
+      "sha256": "938414faca36b69f015292f9d4b77e493a51ac8f1089e0c9275ba631d0e573f5"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R40_model_quality_sandbox_gate/R40_model_quality_sandbox_gate.md",
+      "copied": true,
+      "bytes": 836,
+      "sha256": "32fd657df8c83514e2659ef85a2ff056c3b82ae50615a3f94c289444e99eef3e"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R40_model_quality_sandbox_gate/R40_model_quality_sandbox_gate.json",
+      "copied": true,
+      "bytes": 3145,
+      "sha256": "1176b525d6b2fd7d644a417d781f35e3932213ea96fea9b78ed5d008564e52a1"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R40_model_quality_sandbox_gate/R40_result.json",
+      "copied": true,
+      "bytes": 3145,
+      "sha256": "1176b525d6b2fd7d644a417d781f35e3932213ea96fea9b78ed5d008564e52a1"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R41_real_model_single_case_generation/.env.example",
+      "copied": true,
+      "bytes": 115,
+      "sha256": "49a3026cf576b331a55e8642434802add1e10718b2a15e32f1ad3c4e36f92d09"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R41_real_model_single_case_generation/R41_model_call_log.json",
+      "copied": true,
+      "bytes": 702,
+      "sha256": "c03086129e37fe31adb02c6370ddf8fc78728530f66bb75ff338409367e59ec4"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R41_real_model_single_case_generation/R41_single_case_candidate.json",
+      "copied": true,
+      "bytes": 2404,
+      "sha256": "a523515b3b4221042636d30a99677962d5ab1da6b4da6a04bf4f8904d3210197"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R41_real_model_single_case_generation/R41_single_case_candidate.md",
+      "copied": true,
+      "bytes": 1214,
+      "sha256": "c7e98a9c2556362a78d69876dad83473245c385aeb7981660fea65816794922f"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R41_real_model_single_case_generation/R41_report.md",
+      "copied": true,
+      "bytes": 684,
+      "sha256": "947b3a551fe38c4756c7cceaab0a1de4d5427b088c877e3a8f3639de38223a42"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R41_real_model_single_case_generation/R41_result.json",
+      "copied": true,
+      "bytes": 5930,
+      "sha256": "ba28804b8f17f1e6554736d3a4b37d854e3e55e197cd545a0cd083bc8cf7e231"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_multi_candidate_generation_state.json",
+      "copied": true,
+      "bytes": 7477,
+      "sha256": "d88bbfdc7cce3463550e43ede9ddf029165f8f0a2c06eff8a74517a407796cfd"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_multi_candidate_preview.html",
+      "copied": true,
+      "bytes": 4130,
+      "sha256": "f9ddda40ec0f5333e402eca91f9dcf76f51d93116f0c58cfcc9c43a6e1de5e9e"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_report.md",
+      "copied": true,
+      "bytes": 769,
+      "sha256": "dd3cb5c1118db53406c46a2560fde59728d8ecc21f5db9a2649821af5d7629d3"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_result.json",
+      "copied": true,
+      "bytes": 8641,
+      "sha256": "be0b26f6d0956e135e84dcff83ca8264e9a3a529cc623a851c912582c5dee80e"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_teaching_process_cleanup.md",
+      "copied": true,
+      "bytes": 1045,
+      "sha256": "2c370146e4f70351dfb870eb27a6fbef218c402d5661a59f10998e9c1686ec71"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_courseware_script_candidate.md",
+      "copied": true,
+      "bytes": 625,
+      "sha256": "f9e99a794de76f52b0491b898ac66d2568cf7a560c838060048e0586fe7a3d40"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_classroom_display_candidate.md",
+      "copied": true,
+      "bytes": 624,
+      "sha256": "43915c80cc91622c6dbad29a9395f163198d17bbdabd0fdf71f5e093ada9f65a"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_worksheet_candidate.md",
+      "copied": true,
+      "bytes": 628,
+      "sha256": "2f01e7b5d6cf0ee271d34c0a344741c3cafd03f2a2603fe5c89d6bbaa39cfa48"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_assessment_rubric_candidate.md",
+      "copied": true,
+      "bytes": 607,
+      "sha256": "705457780a8122036536a2b20d731006eef00d0a41b4f8df30318ae38e7672f0"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R43_generation_quality_evaluation/R43_quality_rubric.json",
+      "copied": true,
+      "bytes": 384,
+      "sha256": "5945484ed7f0452a707f90d54d5da3f90710e6cf0dc3eaf1917266d3ec2a8b47"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R43_generation_quality_evaluation/R43_quality_evaluation_result.json",
+      "copied": true,
+      "bytes": 4782,
+      "sha256": "d15409ec7c76bdc741d74db7f76c1a11a215cafde1c7dff6729e6dcfdbddcf3c"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R43_generation_quality_evaluation/R43_quality_review.md",
+      "copied": true,
+      "bytes": 911,
+      "sha256": "666863bf19cbffe1a333e6ec33a952b47259263127d78df8f06a0a4126615d59"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R43_generation_quality_evaluation/R43_quality_panel.html",
+      "copied": true,
+      "bytes": 985,
+      "sha256": "8c4a50ab0e77e68d1070c898415d879d5d9620d0e09ed3a0d5aa871ef42a769f"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R43_generation_quality_evaluation/R43_result.json",
+      "copied": true,
+      "bytes": 4782,
+      "sha256": "d15409ec7c76bdc741d74db7f76c1a11a215cafde1c7dff6729e6dcfdbddcf3c"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_prompt_adjustment_plan.md",
+      "copied": true,
+      "bytes": 229,
+      "sha256": "e73e17c2f399bdbcdf712f0522bbd8b5404e843f953c190d56b7a2c8b7396659"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_prompt_v1.md",
+      "copied": true,
+      "bytes": 507,
+      "sha256": "dfb3b8c0ef632b38a1d7df4bb16fa8fdffcd44e0aaa49a146d817d481e3e529b"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_prompt_v2.md",
+      "copied": true,
+      "bytes": 830,
+      "sha256": "79287cf69527b626e7cd3e2cc62ce7673b4f0f84aa2f7f66966fbed1c1f4f1de"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_schema_adjustment_notes.md",
+      "copied": true,
+      "bytes": 189,
+      "sha256": "29f3a1e22e04b2b58141981b38e0e131527d9b34f3f160d28c1c7244040a7f71"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_regeneration_result.json",
+      "copied": true,
+      "bytes": 8001,
+      "sha256": "03d04fb10ff5e4c8db5c86b578877d53c6bcc2787e824bfe98840f9929ba96b4"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_quality_comparison.md",
+      "copied": true,
+      "bytes": 661,
+      "sha256": "6142ba88a76faaea9eff21ad874aeeb1b4ddb6401cb0d04cffdbf2b3641fe954"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_result.json",
+      "copied": true,
+      "bytes": 8001,
+      "sha256": "03d04fb10ff5e4c8db5c86b578877d53c6bcc2787e824bfe98840f9929ba96b4"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R40_R44_MODEL_GENERATION_QUALITY_LOOP_REVIEW_STAGING_RESULT.json",
+      "copied": true,
+      "bytes": 624,
+      "sha256": "cf47f64ddbde3ab696f4a67b7109f608e74aa94683fed27fb649b25337674cc0"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R40_R44_MODEL_GENERATION_QUALITY_LOOP_GPT_REVIEW_NOTE.md",
+      "copied": true,
+      "bytes": 994,
+      "sha256": "81293d2fce22b848d8d7ef13c594e2c4b211eb478a9e356c37febdd6aa3a9285"
+    }
+  ],
+  "boundary": {
+    "provider_called_in_sandbox": true,
+    "model_called_in_sandbox": true,
+    "formal_apply_performed": false,
+    "save_performed": false,
+    "export_performed": false,
+    "archive_performed": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "student_data_read": false,
+    "original_lesson_overwritten": false
+  },
+  "zip_path": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R40_R44_MODEL_GENERATION_QUALITY_LOOP_REVIEW.zip",
+  "zip_sha256": "b5ccf8b665b3f1cc781a8cbf34473246735279155eaf86157e2c61ef02d058e7"
+}

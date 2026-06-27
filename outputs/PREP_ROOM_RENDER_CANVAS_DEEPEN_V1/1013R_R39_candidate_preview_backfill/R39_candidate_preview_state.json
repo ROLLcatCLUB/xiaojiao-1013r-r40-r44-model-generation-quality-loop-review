@@ -1,0 +1,32 @@
+{
+  "candidate": {
+    "source": "mock_candidate_fixture",
+    "provider_call": false,
+    "model_call": false,
+    "teacher_input": "这段教案太乱，帮我整理教学过程。",
+    "before_text": "看图渐变，比较明度，尝试调色，展示作品。",
+    "after_text": "先观察自然与教材中的渐变，再比较同一颜色加入白色、黑色或灰色后的层次变化，随后用试色纸完成3到5格渐变，最后展示作品并说明颜色变化过程。",
+    "xiaojiao_suggestion": "把教学过程整理成观察、比较、试色、表达四步，方便老师逐段确认。",
+    "confidence": 0.72,
+    "risk_notes": [
+      "仅为 mock 候选",
+      "不能覆盖原教案",
+      "需要教师确认后才可进入 R40"
+    ],
+    "teacher_confirmation_required": true,
+    "formal_apply_allowed": false
+  },
+  "ui_checks": {
+    "before_after_visible": true,
+    "suggestion_visible": true,
+    "risk_visible": true,
+    "teacher_gate_visible": true,
+    "source_visible": true,
+    "provider_call_false_visible": true,
+    "formal_apply_false_visible": true,
+    "save_export_blocked_visible": true
+  },
+  "does_not_overwrite_original_lesson": true,
+  "write_allowed": false,
+  "formal_apply_allowed": false
+}

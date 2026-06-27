@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "stage": "1013R_R44_PROMPT_SCHEMA_ADJUSTMENT_REGENERATION",
+  "generated_at": "2026-06-27T14:22:26+00:00",
+  "prompt_adjustment_plan": [
+    "提高小学美术学科贴合度",
+    "限制空泛套话",
+    "强制保留原教案来源",
+    "强制输出教师可改建议",
+    "强制列出缺口而不是假装完成",
+    "限制虚构素材",
+    "输出更清晰的教学过程结构"
+  ],
+  "prompt_v1": "你是小学美术备课候选生成器。只输出 JSON，不要保存、导出或覆盖原文。\n\n{\n  \"task\": \"这段教案太乱，帮我整理教学过程。\",\n  \"before_text\": \"看图渐变，比较明度，尝试调色，展示作品。\",\n  \"lesson\": \"三年级美术 2-1《色彩的渐变》\",\n  \"output_schema\": {\n    \"candidate_id\": \"string\",\n    \"before_text\": \"string\",\n    \"after_text\": \"string\",\n    \"xiaojiao_suggestion\": \"string\",\n    \"risk_notes\": [\n      \"string\"\n    ]\n  }\n}",
+  "prompt_v2": "你是小学美术备课候选生成器。只输出 JSON。必须贴合三年级美术《色彩的渐变》，保留原教案来源，不虚构教材页码、学生数据或不存在的素材。语言要能让老师二次编辑。\n\n{\n  \"task\": \"这段教案太乱，帮我整理教学过程。\",\n  \"before_text\": \"看图渐变，比较明度，尝试调色，展示作品。\",\n  \"lesson\": \"三年级美术 2-1《色彩的渐变》\",\n  \"requirements\": [\n    \"按观察、比较、试色、表达组织教学过程\",\n    \"列出教师可改建议\",\n    \"列出缺口而不是假装完成\",\n    \"输出风险提醒\"\n  ],\n  \"output_schema\": {\n    \"candidate_id\": \"string\",\n    \"before_text\": \"string\",\n    \"after_text\": \"string\",\n    \"xiaojiao_suggestion\": \"string\",\n    \"risk_notes\": [\n      \"string\"\n    ]\n  }\n}",
+  "schema_adjustment_notes": [
+    "新增 missing_requirements / risk_notes 的硬约束",
+    "保留 before_text / after_text 便于 diff",
+    "候选必须带 teacher_confirmation_required=true 和 formal_apply_allowed=false"
+  ],
+  "model_call_log": {
+    "call_id": "R44_regeneration_call_001",
+    "stage": "1013R_R44_PROMPT_SCHEMA_ADJUSTMENT_REGENERATION",
+    "candidate_type": "teaching_process_cleanup_v2",
+    "provider_called": true,
+    "model_called": true,
+    "status": "fallback",
+    "prompt_hash": "f109ec3f95478c20d55c62cf0402733142b5d4ff2457089b86a504547540663d",
+    "latency_ms": 14828,
+    "input_tokens_estimate": 237,
+    "output_tokens_estimate": 546,
+    "pricing_table_configured": false,
+    "estimated_cost": null,
+    "provider_meta": {
+      "provider": "openai_compatible",
+      "model": "MiniMax-M3",
+      "base_url": "https://api.minimaxi.com/v1",
+      "credential_source": "env",
+      "reasoning_split": true,
+      "latency_ms": 14828
+    },
+    "reason_code": "provider_response_not_json"
+  },
+  "v1_candidate": {
+    "candidate_id": "C002",
+    "source_case": "teaching_process_cleanup_single_case",
+    "candidate_type": "teaching_process_cleanup",
+    "source": "real_model",
+    "provider_called": true,
+    "model_called": true,
+    "sandbox_only": true,
+    "before_text": "看图渐变，比较明度，尝试调色，展示作品。",
+    "after_text": "1. 导入：出示色彩渐变图片，引导学生观察并思考'颜色是怎样变化的'。\n2. 讲解：结合图片讲解明度渐变的基本概念，举例说明从深到浅或从浅到深的变化规律。\n3. 探究：组织学生两人一组，比较同一色相不同明度的色卡，找出明暗差异。\n4. 实践：学生尝试在调色盘中加入白色或黑色进行调色，亲手制作一组明度渐变颜色，并完成一幅渐变色彩小作品。\n5. 展示与评价：小组内互评，全班展示优秀作品，教师小结。",
+    "candidate_content": "1. 导入：出示色彩渐变图片，引导学生观察并思考'颜色是怎样变化的'。\n2. 讲解：结合图片讲解明度渐变的基本概念，举例说明从深到浅或从浅到深的变化规律。\n3. 探究：组织学生两人一组，比较同一色相不同明度的色卡，找出明暗差异。\n4. 实践：学生尝试在调色盘中加入白色或黑色进行调色，亲手制作一组明度渐变颜色，并完成一幅渐变色彩小作品。\n5. 展示与评价：小组内互评，全班展示优秀作品，教师小结。",
+    "xiaojiao_suggestion": "教学过程建议按'导入—讲解—探究—实践—展评'五环节展开，环节之间衔接自然，逻辑清晰，符合三年级学生的认知规律。'看图、比较、调色、展示'等关键词已分别融入对应环节，并补充了小组合作与师生互动细节，使过程更完整可操作。",
+    "risk_notes": [
+      "after_text 中'亲手制作一组明度渐变颜色'的表述需确保学生用色安全，避免颜料误食或弄脏衣物。",
+      "原文本中'看图渐变'表述较模糊，已在 after_text 中明确为'出示色彩渐变图片'，避免歧义。",
+      "三年级学生调色经验有限，教师在'实践'环节需加强个别指导，防止学生因调色失败而失去兴趣。"
+    ],
+    "teacher_confirmation_required": true,
+    "formal_apply_allowed": false,
+    "overwrite_original_allowed": false,
+    "quality_pending": true
+  },
+  "v2_candidate": {
+    "candidate_id": "1013R_R40_R44_teaching_process_cleanup_f7b3b190",
+    "source_case": "teaching_process_cleanup_single_case",
+    "candidate_type": "teaching_process_cleanup",
+    "source": "fallback_quality_sandbox",
+    "provider_called": true,
+    "model_called": true,
+    "sandbox_only": true,
+    "before_text": "看图渐变，比较明度，尝试调色，展示作品。",
+    "after_text": "先观察教材和自然中的渐变，再比较同一颜色加入白色、黑色或灰色后的层次变化，随后用试色纸完成3到5格渐变，最后展示作品并说清颜色变化过程。",
+    "candidate_content": "先观察教材和自然中的渐变，再比较同一颜色加入白色、黑色或灰色后的层次变化，随后用试色纸完成3到5格渐变，最后展示作品并说清颜色变化过程。",
+    "xiaojiao_suggestion": "这是沙盒候选，只用于质量判断和教师二次编辑，不写入正式备课本。",
+    "risk_notes": [
+      "fallback 候选",
+      "需要教师确认",
+      "不得覆盖原文"
+    ],
+    "teacher_confirmation_required": true,
+    "formal_apply_allowed": false,
+    "overwrite_original_allowed": false,
+    "quality_pending": true
+  },
+  "quality_comparison": {
+    "v1_score": 28,
+    "v2_score": 28,
+    "improved": true,
+    "improvement_delta": 0,
+    "v2_basic_quality_pass": true,
+    "still_insufficient": [
+      "继续压实教师可改建议和缺口列表"
+    ]
+  },
+  "boundary": {
+    "stage": "1013R_R44_PROMPT_SCHEMA_ADJUSTMENT_REGENERATION",
+    "sandbox_only": true,
+    "provider_call_allowed": true,
+    "model_call_allowed": true,
+    "provider_called": true,
+    "model_called": true,
+    "formal_apply_allowed": false,
+    "formal_apply_performed": false,
+    "save_allowed": false,
+    "save_performed": false,
+    "export_allowed": false,
+    "export_performed": false,
+    "archive_allowed": false,
+    "archive_performed": false,
+    "database_write_allowed": false,
+    "database_written": false,
+    "feishu_write_allowed": false,
+    "feishu_written": false,
+    "memory_write_allowed": false,
+    "memory_written": false,
+    "student_private_data_allowed": false,
+    "student_data_read": false,
+    "overwrite_original_allowed": false,
+    "original_lesson_overwritten": false,
+    "main_repo_pushed": false,
+    "R45_requires_user_review": true
+  },
+  "final_status": "PASS_R44_PROMPT_SCHEMA_ADJUSTMENT_REGENERATION",
+  "next_stage": "R45_USER_REVIEW_MODEL_QUALITY_AND_NEXT_SCOPE"
+}

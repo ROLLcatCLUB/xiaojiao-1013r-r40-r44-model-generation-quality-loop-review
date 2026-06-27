@@ -1,0 +1,15 @@
+{
+  "dimensions": [
+    "structure_completeness",
+    "subject_alignment",
+    "source_alignment",
+    "teacher_readability",
+    "actionability",
+    "hallucination_risk",
+    "revision_value"
+  ],
+  "score_range": "0-5",
+  "total": 35,
+  "basic_pass_line": 24,
+  "risk_rule": "hallucination_risk >= 4 => PASS_WITH_RISK or BLOCKED; source_alignment <=2 cannot pass"
+}

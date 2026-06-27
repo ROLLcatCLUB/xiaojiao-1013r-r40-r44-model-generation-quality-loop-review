@@ -1,0 +1,110 @@
+{
+  "ok": true,
+  "stage": "1013R_R40_MODEL_QUALITY_SANDBOX_GATE",
+  "generated_at": "2026-06-27T14:21:36+00:00",
+  "provider_config": {
+    "provider_name": "openai_compatible",
+    "model": "MiniMax-M3",
+    "base_url": "https://api.minimaxi.com/v1",
+    "credential_source": "env",
+    "credential_available": true,
+    "token_preview": null,
+    "safe_for_preview_runtime": true
+  },
+  "gate": {
+    "provider_call_allowed": true,
+    "model_call_allowed": true,
+    "sandbox_only": true,
+    "formal_apply_allowed": false,
+    "save_allowed": false,
+    "export_allowed": false,
+    "database_write_allowed": false,
+    "feishu_write_allowed": false,
+    "memory_write_allowed": false,
+    "overwrite_original_allowed": false
+  },
+  "allowed_test_objects": [
+    "教学过程整理",
+    "课件脚本候选",
+    "大屏呈现候选",
+    "学习单候选",
+    "评价维度候选"
+  ],
+  "forbidden_objects": [
+    "正式保存",
+    "正式导出",
+    "正式归档",
+    "学生真实数据分析",
+    "直接写入正式备课本",
+    "自动生成并覆盖页面内容"
+  ],
+  "candidate_id_rule": "1013R_R40_R44_<candidate_type>_<yyyymmddhhmmss>_<short_hash>",
+  "provider_config_reading": "environment variables only; API keys are never written to repo artifacts",
+  "model_call_log_schema": {
+    "required": [
+      "call_id",
+      "stage",
+      "candidate_type",
+      "provider_called",
+      "model_called",
+      "status",
+      "prompt_hash",
+      "latency_ms"
+    ],
+    "forbidden": [
+      "api_key",
+      "authorization_header",
+      "raw_secret"
+    ]
+  },
+  "cost_log_schema": {
+    "fields": [
+      "call_id",
+      "input_tokens_estimate",
+      "output_tokens_estimate",
+      "pricing_table_configured",
+      "estimated_cost"
+    ],
+    "pricing_table_configured": false
+  },
+  "failure_fallback_schema": {
+    "fields": [
+      "status",
+      "reason_code",
+      "safe_message",
+      "fallback_used",
+      "candidate_generated"
+    ],
+    "must_not_fake_real_call": true
+  },
+  "boundary": {
+    "stage": "1013R_R40_MODEL_QUALITY_SANDBOX_GATE",
+    "sandbox_only": true,
+    "provider_call_allowed": true,
+    "model_call_allowed": true,
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_allowed": false,
+    "formal_apply_performed": false,
+    "save_allowed": false,
+    "save_performed": false,
+    "export_allowed": false,
+    "export_performed": false,
+    "archive_allowed": false,
+    "archive_performed": false,
+    "database_write_allowed": false,
+    "database_written": false,
+    "feishu_write_allowed": false,
+    "feishu_written": false,
+    "memory_write_allowed": false,
+    "memory_written": false,
+    "student_private_data_allowed": false,
+    "student_data_read": false,
+    "overwrite_original_allowed": false,
+    "original_lesson_overwritten": false,
+    "main_repo_pushed": false,
+    "R45_requires_user_review": true
+  },
+  "final_status": "PASS_R40_MODEL_QUALITY_SANDBOX_GATE",
+  "next_stage": "R41_REAL_MODEL_SINGLE_CASE_GENERATION"
+}

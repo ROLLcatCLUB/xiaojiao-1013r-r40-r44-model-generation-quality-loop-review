@@ -1,0 +1,176 @@
+{
+  "ok": true,
+  "stage": "1013R_R42_MULTI_CANDIDATE_TYPE_GENERATION",
+  "generated_at": "2026-06-27T14:22:11+00:00",
+  "model_call_log": {
+    "call_id": "R42_multi_candidate_call_001",
+    "stage": "1013R_R42_MULTI_CANDIDATE_TYPE_GENERATION",
+    "candidate_type": "multi_candidate",
+    "provider_called": true,
+    "model_called": true,
+    "status": "fallback",
+    "prompt_hash": "b7906409b3a03c778096587152b314655d43dea0940454fc96abfab536e42434",
+    "latency_ms": 27124,
+    "input_tokens_estimate": 320,
+    "output_tokens_estimate": 1766,
+    "pricing_table_configured": false,
+    "estimated_cost": null,
+    "provider_meta": {
+      "provider": "openai_compatible",
+      "model": "MiniMax-M3",
+      "base_url": "https://api.minimaxi.com/v1",
+      "credential_source": "env",
+      "reasoning_split": true,
+      "latency_ms": 27124
+    },
+    "reason_code": "provider_response_not_json"
+  },
+  "candidates": [
+    {
+      "candidate_id": "1013R_R40_R44_teaching_process_cleanup_f7b3b190",
+      "candidate_type": "teaching_process_cleanup",
+      "source": "fallback_quality_sandbox",
+      "status": "fallback",
+      "reason_code": "reuse_R41_candidate",
+      "before_or_context": "看图渐变，比较明度，尝试调色，展示作品。",
+      "candidate_content": "1. 导入：出示色彩渐变图片，引导学生观察并思考'颜色是怎样变化的'。\n2. 讲解：结合图片讲解明度渐变的基本概念，举例说明从深到浅或从浅到深的变化规律。\n3. 探究：组织学生两人一组，比较同一色相不同明度的色卡，找出明暗差异。\n4. 实践：学生尝试在调色盘中加入白色或黑色进行调色，亲手制作一组明度渐变颜色，并完成一幅渐变色彩小作品。\n5. 展示与评价：小组内互评，全班展示优秀作品，教师小结。",
+      "after_text": "1. 导入：出示色彩渐变图片，引导学生观察并思考'颜色是怎样变化的'。\n2. 讲解：结合图片讲解明度渐变的基本概念，举例说明从深到浅或从浅到深的变化规律。\n3. 探究：组织学生两人一组，比较同一色相不同明度的色卡，找出明暗差异。\n4. 实践：学生尝试在调色盘中加入白色或黑色进行调色，亲手制作一组明度渐变颜色，并完成一幅渐变色彩小作品。\n5. 展示与评价：小组内互评，全班展示优秀作品，教师小结。",
+      "xiaojiao_suggestion": "这是沙盒候选，只用于质量判断和教师二次编辑，不写入正式备课本。",
+      "missing_requirements": [
+        "教师确认"
+      ],
+      "risk_notes": [
+        "fallback 候选",
+        "需要教师确认",
+        "不得覆盖原文"
+      ],
+      "teacher_confirmation_required": true,
+      "formal_apply_allowed": false,
+      "overwrite_original_allowed": false,
+      "quality_pending": true
+    },
+    {
+      "candidate_id": "1013R_R40_R44_courseware_script_candidate_2027f08d",
+      "candidate_type": "courseware_script_candidate",
+      "source": "fallback_quality_sandbox",
+      "status": "fallback",
+      "reason_code": "provider_response_not_json",
+      "before_or_context": "看图渐变，比较明度，尝试调色，展示作品。",
+      "candidate_content": "第1屏：观察色彩渐变图；第2屏：比较明度变化；第3屏：试色步骤；第4屏：作品展示与一句说明。",
+      "after_text": "第1屏：观察色彩渐变图；第2屏：比较明度变化；第3屏：试色步骤；第4屏：作品展示与一句说明。",
+      "xiaojiao_suggestion": "这是沙盒候选，只用于质量判断和教师二次编辑，不写入正式备课本。",
+      "missing_requirements": [
+        "教师确认"
+      ],
+      "risk_notes": [
+        "fallback 候选",
+        "需要教师确认",
+        "不得覆盖原文"
+      ],
+      "teacher_confirmation_required": true,
+      "formal_apply_allowed": false,
+      "overwrite_original_allowed": false,
+      "quality_pending": true
+    },
+    {
+      "candidate_id": "1013R_R40_R44_classroom_display_candidate_e6dbbe1c",
+      "candidate_type": "classroom_display_candidate",
+      "source": "fallback_quality_sandbox",
+      "status": "fallback",
+      "reason_code": "provider_response_not_json",
+      "before_or_context": "看图渐变，比较明度，尝试调色，展示作品。",
+      "candidate_content": "大屏按观察、比较、试色、表达四步呈现，每屏保留一个清晰任务和一张学生可观察的色彩示例。",
+      "after_text": "大屏按观察、比较、试色、表达四步呈现，每屏保留一个清晰任务和一张学生可观察的色彩示例。",
+      "xiaojiao_suggestion": "这是沙盒候选，只用于质量判断和教师二次编辑，不写入正式备课本。",
+      "missing_requirements": [
+        "教师确认"
+      ],
+      "risk_notes": [
+        "fallback 候选",
+        "需要教师确认",
+        "不得覆盖原文"
+      ],
+      "teacher_confirmation_required": true,
+      "formal_apply_allowed": false,
+      "overwrite_original_allowed": false,
+      "quality_pending": true
+    },
+    {
+      "candidate_id": "1013R_R40_R44_worksheet_candidate_c95aaba9",
+      "candidate_type": "worksheet_candidate",
+      "source": "fallback_quality_sandbox",
+      "status": "fallback",
+      "reason_code": "provider_response_not_json",
+      "before_or_context": "看图渐变，比较明度，尝试调色，展示作品。",
+      "candidate_content": "任务一看一看：圈出渐变最明显的位置；任务二试一试：完成3到5格渐变；任务三说一说：写一句颜色怎样变化。",
+      "after_text": "任务一看一看：圈出渐变最明显的位置；任务二试一试：完成3到5格渐变；任务三说一说：写一句颜色怎样变化。",
+      "xiaojiao_suggestion": "这是沙盒候选，只用于质量判断和教师二次编辑，不写入正式备课本。",
+      "missing_requirements": [
+        "教师确认"
+      ],
+      "risk_notes": [
+        "fallback 候选",
+        "需要教师确认",
+        "不得覆盖原文"
+      ],
+      "teacher_confirmation_required": true,
+      "formal_apply_allowed": false,
+      "overwrite_original_allowed": false,
+      "quality_pending": true
+    },
+    {
+      "candidate_id": "1013R_R40_R44_assessment_rubric_candidate_b9c81147",
+      "candidate_type": "assessment_rubric_candidate",
+      "source": "fallback_quality_sandbox",
+      "status": "blocked",
+      "reason_code": "missing_teacher_dimension",
+      "before_or_context": "看图渐变，比较明度，尝试调色，展示作品。",
+      "candidate_content": "blocked：评价维度需要教师确认，可先围绕渐变层次、试色过程、作品表达三项讨论。",
+      "after_text": "blocked：评价维度需要教师确认，可先围绕渐变层次、试色过程、作品表达三项讨论。",
+      "xiaojiao_suggestion": "这是沙盒候选，只用于质量判断和教师二次编辑，不写入正式备课本。",
+      "missing_requirements": [
+        "评价维度",
+        "教师确认"
+      ],
+      "risk_notes": [
+        "fallback 候选",
+        "需要教师确认",
+        "不得覆盖原文"
+      ],
+      "teacher_confirmation_required": true,
+      "formal_apply_allowed": false,
+      "overwrite_original_allowed": false,
+      "quality_pending": true
+    }
+  ],
+  "boundary": {
+    "stage": "1013R_R42_MULTI_CANDIDATE_TYPE_GENERATION",
+    "sandbox_only": true,
+    "provider_call_allowed": true,
+    "model_call_allowed": true,
+    "provider_called": true,
+    "model_called": true,
+    "formal_apply_allowed": false,
+    "formal_apply_performed": false,
+    "save_allowed": false,
+    "save_performed": false,
+    "export_allowed": false,
+    "export_performed": false,
+    "archive_allowed": false,
+    "archive_performed": false,
+    "database_write_allowed": false,
+    "database_written": false,
+    "feishu_write_allowed": false,
+    "feishu_written": false,
+    "memory_write_allowed": false,
+    "memory_written": false,
+    "student_private_data_allowed": false,
+    "student_data_read": false,
+    "overwrite_original_allowed": false,
+    "original_lesson_overwritten": false,
+    "main_repo_pushed": false,
+    "R45_requires_user_review": true
+  },
+  "final_status": "PASS_R42_MULTI_CANDIDATE_TYPE_GENERATION",
+  "next_stage": "R43_GENERATION_QUALITY_EVALUATION"
+}

@@ -1,0 +1,9 @@
+{
+  "package_id": "1013R_R40_R44_MODEL_GENERATION_QUALITY_LOOP_REVIEW",
+  "generated_at": "2026-06-27T14:24:11+00:00",
+  "forbidden_hits": [],
+  "forbidden_scan_pass": true,
+  "line_endings_guard": ".gitattributes with * -text",
+  "copy_count": 41,
+  "zip_sha256": "b5ccf8b665b3f1cc781a8cbf34473246735279155eaf86157e2c61ef02d058e7"
+}

@@ -1,0 +1,22 @@
+{
+  "call_id": "R41_single_case_call_001",
+  "stage": "1013R_R41_REAL_MODEL_SINGLE_CASE_GENERATION",
+  "candidate_type": "teaching_process_cleanup",
+  "provider_called": true,
+  "model_called": true,
+  "status": "success",
+  "prompt_hash": "78c1b302b2d672b7cbc0d4934165347ae112c5b1770c7b66e1290387e5122360",
+  "latency_ms": 7935,
+  "input_tokens_estimate": 166,
+  "output_tokens_estimate": 310,
+  "pricing_table_configured": false,
+  "estimated_cost": null,
+  "provider_meta": {
+    "provider": "openai_compatible",
+    "model": "MiniMax-M3",
+    "base_url": "https://api.minimaxi.com/v1",
+    "credential_source": "env",
+    "reasoning_split": true,
+    "latency_ms": 7935
+  }
+}

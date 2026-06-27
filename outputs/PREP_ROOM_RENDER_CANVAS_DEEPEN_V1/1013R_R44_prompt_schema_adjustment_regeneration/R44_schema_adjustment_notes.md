@@ -1,0 +1,3 @@
+- 新增 missing_requirements / risk_notes 的硬约束
+- 保留 before_text / after_text 便于 diff
+- 候选必须带 teacher_confirmation_required=true 和 formal_apply_allowed=false
