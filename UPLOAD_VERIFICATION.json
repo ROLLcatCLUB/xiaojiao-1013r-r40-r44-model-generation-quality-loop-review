@@ -1,9 +1,52 @@
 {
   "package_id": "1013R_R40_R44_MODEL_GENERATION_QUALITY_LOOP_REVIEW",
-  "generated_at": "2026-06-27T14:24:11+00:00",
+  "repo": "ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review",
+  "branch": "master",
+  "observed_uploaded_commit": "9aa1ed4a5ff870b57123edfcf00416a34995826c",
+  "raw_link_checks": [
+    {
+      "path": "README.md",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review/master/README.md"
+    },
+    {
+      "path": "GPT_REVIEW_NOTE.md",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review/master/GPT_REVIEW_NOTE.md"
+    },
+    {
+      "path": "REVIEW_PACKAGE_MANIFEST.json",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review/master/REVIEW_PACKAGE_MANIFEST.json"
+    },
+    {
+      "path": "UPLOAD_VERIFICATION.json",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review/master/UPLOAD_VERIFICATION.json"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R41_real_model_single_case_generation/R41_single_case_candidate.md",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review/master/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R41_real_model_single_case_generation/R41_single_case_candidate.md"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_multi_candidate_preview.html",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review/master/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R42_multi_candidate_type_generation/R42_multi_candidate_preview.html"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R43_generation_quality_evaluation/R43_quality_review.md",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review/master/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R43_generation_quality_evaluation/R43_quality_review.md"
+    },
+    {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_quality_comparison.md",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013r-r40-r44-model-generation-quality-loop-review/master/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R44_prompt_schema_adjustment_regeneration/R44_quality_comparison.md"
+    }
+  ],
   "forbidden_hits": [],
   "forbidden_scan_pass": true,
   "line_endings_guard": ".gitattributes with * -text",
-  "copy_count": 41,
   "zip_sha256": "b5ccf8b665b3f1cc781a8cbf34473246735279155eaf86157e2c61ef02d058e7"
 }
